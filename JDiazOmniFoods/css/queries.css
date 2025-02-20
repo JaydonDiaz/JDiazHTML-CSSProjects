@@ -1,0 +1,204 @@
+/*
+
+--- Typography
+
+Spacing (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+Font Sizes (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+Font Weights:
+Default: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
+
+Line Heights:
+  Default: 1
+  Small: 1.05
+  Medium: 1.2
+  Paragraph default: 1.6
+
+--- Colors
+
+Primary: #e67e22
+Tints: #fdf2e9, #fae5d3
+Shades: #cf711f
+Accents:
+Grays: #555,
+
+--- Shadows
+
+--- Border Radius
+12px
+
+--- Whitespace
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+  -- Letter spacing
+  -0.5px
+  0.75px
+*/
+
+
+/* BELOW 1200px */
+
+@media(max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+.gallery-items {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+/* BELOW 1104px */
+@media(max-width: 69em) {
+
+
+.img-featured {
+    height: 2.4rem;
+  }
+  
+.step-number {
+    font-size: 6.2rem;
+  }
+
+.step-img {
+    width: 30%;
+  }
+
+.step-img-box::before {
+  width: 55%;
+  border-radius: 45%;
+  padding-bottom: 55%;
+
+  }
+
+.step-img-box::after {
+  width: 40%;
+  border-radius: 45%;
+  padding-bottom: 40%;
+  }
+
+.meal-title {
+    font-size: 2rem;
+  }
+
+.gallery-item {
+    width: 19.6rem;
+  }
+  
+
+}
+
+/* BELOW 1008px */
+@media(max-width: 63em) {
+
+.meal-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.meal-title {
+  font-size: 1.8rem;
+}
+
+.meal-attribute {
+  font-size: 1.2rem;
+}
+}
+
+/* BELOW 944px */
+@media(max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  #section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-items {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .feature-container {
+    grid-template-columns: 1fr;
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+}
+
+/* BELOW 704px */
+@media(max-width: 44em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .heading-primary {
+    font-size: 3rem;
+  }
+}
+
+/* BELOW 608px */
+@media(max-width: 38em) {
+  html {
+    font-size: 37.5%;
+  }
+
+ 
+}
+
+/* BELOW 384px*/
+@media(max-width: 26em) {
+html {
+  font-size: 25%;
+}
+}
